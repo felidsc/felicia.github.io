@@ -15,5 +15,14 @@
 <a href="https://takiedela.ru/2023/08/u-bogov-ne-prosyat-deneg/?ref=magasinetroest.dk">article_ru<br></a>
 <a href="https://kconrad.math.uconn.edu/blurbs/">math papers<br></a>
 <a href="https://poezie.ro/clasici/mircea-eliade/proza/nopti-la-serampore">nopti la serampore<br></a>
+<p>ruby is fun: Because github-pages >= 232 depends on jekyll-commonmark-ghpages = 0.5.1
+  and jekyll-commonmark-ghpages >= 0.2.0 depends on jekyll-commonmark ~> 1.4.0,
+  github-pages >= 232 requires jekyll-commonmark ~> 1.4.0.
+And because jekyll-commonmark >= 1.4.0 depends on commonmarker ~> 0.22
+  and commonmarker >= 0.22.0, < 1.0.0.pre depends on Ruby >= 2.6, < 4.0,
+  github-pages >= 232 requires Ruby >= 2.6, < 4.0.
+So, because Gemfile depends on github-pages ~> 232
+  and current Ruby version is = 4.0.9,
+  version solving has failed.</p>
 </body>
 </html>

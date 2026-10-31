@@ -1,1 +1,1 @@
-access here: https://felidsc.github.io/felicia.github.io/
+access here: https://github.com/felidsc/felicia.github.io/settings/pages
